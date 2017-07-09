@@ -7,10 +7,13 @@
     {% else %}
       <title>Eggy: An Blog</title>
     {% endif %}
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <div class="egg">
+      🥚
+    </div>
     <div>
       {% if is_post %}
         {% include '_layouts/post.liquid' %}
